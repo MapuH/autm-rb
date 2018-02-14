@@ -10,7 +10,7 @@
 
 
     {{ resource.date | date_to_string }}
-    {% if site.data.theme.show_post_commets_count %}
+    {% if site.data.theme.show_post_comment_count %}
      | <i class="fa fa-comment"></i> <a class="text-muted" href="{{resource.url | prepend:site.baseurl}}/#disqus_thread"></a>
     {% endif %}
 

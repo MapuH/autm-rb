@@ -9,11 +9,20 @@ layout: default
 
   {{ content }}
 
-<div class="comments">
-  {% include disqus.html%}
-</div>
+{% if site.data.theme.show_tags %}  
+	<i class="fa fa-tag"></i> Tags: 
+    {% for tag in tags %}
+      <a class="text-muted" href="{{site.baseurl}}/tags/#{{tag|slugize}} ">{{tag}}</a>{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+{% endif %}
 
-<hr/>
+{% if site.data.theme.show_comments %}
+	<div class="comments">
+	  {% include disqus.html%}
+	</div>
+
+	<hr/>
+{% endif %}
 
 {% if site.data.theme.show_post_navs %}
   {% if page.previous or page.next %}
