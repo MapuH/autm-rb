@@ -1,55 +1,34 @@
 text: |
+  **Hi, I'm Marin!  
+    I'm part of the Data Quality & Master Data Management praxis at [Adastra Bulgaria](http://www.bg.adastragrp.com/){:target="_blank"}.**
 
-  Write something about yourself here using markdown.
-
-  ## Lists
-
-  Unordered
-
-  + Create a list by starting a line with `+`, `-`, or `*`
-  + Sub-lists are made by indenting 2 spaces:
-    - Marker character change forces new list start:
-      * Ac tristique libero volutpat at
-      + Facilisis in pretium nisl aliquet
-      - Nulla volutpat aliquam velit
-  + Very easy!
-
-  Ordered
-
-  1. Lorem ipsum dolor sit amet
-  2. Consectetur adipiscing elit
-  3. Integer molestie lorem at massa
-
-
-  1. You can use sequential numbers...
-  1. ...or keep all the numbers as `1.`
-
-  Start numbering with offset:
-
-  57. foo
-  1. bar
-
-  ## Tables
-
-  | Option | Description |
-  | ------ | ----------- |
-  | data   | path to data files to supply the data that will be passed into templates. |
-  | engine | engine to be used for processing templates. Handlebars is the default. |
-  | ext    | extension to be used for dest files. |
-
-  Right aligned columns
-
-  | Option | Description |
-  | ------:| -----------:|
-  | data   | path to data files to supply the data that will be passed into templates. |
-  | engine | engine to be used for processing templates. Handlebars is the default. |
-  | ext    | extension to be used for dest files. |
-
-
-  ## Links
-
-  [link text](https://github.com)
-
-  [link with title](https://github.com/ "title text!")
-
-  Autoconverted link https://github.com (enable linkify to see)
+  ## Things I'm Good At
+    + Ataccama
+    + SQL
+    + Data Analysis
+    + Regular Expressions
+    + Data Cleansing
+    + Teamwork
+  
+  ## My Experience
+    + *January 2017 - Present*  
+    ![Adastra](../public/adastra.png "Adastra") **Adastra Bulgaria** (Data Warehouse Consultant)
+    
+      Since April 2017 I've been working on a Master Data Center solution for a performance rights organization in Canada as part of an off-site
+      development team. My main responsibilities are related to developing parts of the application which handle data ingestion, data cleansing,
+      data matching and consolidation and data export.  
+      Tools used: Ataccama 11 (MDC, MDA, DQC, DQIT), Microsoft SQL Server 2014
+    + *July 2011 - January 2017*  
+    ![Taxback](../public/taxback.png "Taxback") **Taxback.com** (Tax Technician)
+    
+      My job at the *Documents Team* was to review customers' financial documents, enter all details in the CRM system and also make the initial
+      preparation of the tax returns. I took part in the preparation of tax returns for individuals working in Australia, New Zealand and USA.
+    + *July 2008 - August 2008*  
+    ![SGEB](../public/sgeb.png "SGEB") **Societe Generale Expressbank** (Intern Front Office)
+    
+      I was involved in a 2-month summer internship with the bank. My responsibilities included selling a variety of banking products to individual customers.
+  
+  ## Additional Info
+    + I have a master's degree in Economics (Bank Management) from the University of Econmics - Varna
+    + I'm located in Varna, Bulgaria (but I love travelling)
+    + I adore red pandas. [Let's save them!](https://redpandanetwork.org/){:target="_blank"}
