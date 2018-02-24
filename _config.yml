@@ -1,4 +1,4 @@
-baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+baseurl: "mapuh.github.io" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "mapuh.github.io" # the base hostname & protocol for your site.
 
 paginate: 5 #articles per page
