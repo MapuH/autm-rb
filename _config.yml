@@ -6,7 +6,7 @@ paginate_path: /blog/page:num #makes pagination working
 
 # header text
 title: Marin Marinov
-header: Data Warehouse Consultant @ <a href="http://adastragrp.com/" target="_blank">ADASTRA Group</a>
+header: Data Quality - Master Data Management - Data Warehousing
 
 # for welcome page
 # to replace image go to index.html
