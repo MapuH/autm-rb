@@ -1,19 +1,47 @@
-<div id="footer">
-<hr/>
-  <div class="pull-left">
-    &copy;{{ site.time | date:"%Y" }}.
-    Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and
-    <a href="https://github.com/kirqe/autm-rb" target="_blank">Autm-rb</a>.
-	Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+<footer class="site-footer">
+
+  <div class="wrapper">
+</br>
+    <h2 class="footer-heading">Contact</h2>
+
+    <div class="footer">
+
+        <h3 class="contact-list">
+<li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% endif %}
+
+</li>
+<li>
+            {% if site.phone %}
+            Call {{ site.phone | escape }}
+            {% endif %}
+            </li>
+<li>
+            {% if site.email %}
+            email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+
+          </h3>
+</br>
+        <div class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </div>
+
+
+    </div>
+
   </div>
 
-  <div class="pull-right">
-    <span class="credits pull-right social">
-      {% for sl in site.data.personal.social %}
-        {% unless sl[1] == '' %}
-          <a href="{{sl[1]}}" target="_blank"><i class="fa fa-{{sl[0]}}"></i></a>
-        {% endunless %}
-      {% endfor %}
-    </span>
-  </div>
-</div>
+</footer>
